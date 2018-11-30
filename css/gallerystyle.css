@@ -1,0 +1,172 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #23415c;
+    padding: 1% 0;
+    font-size: 1.5em;
+}
+
+#logoraster {
+    max-height: 70px;
+}
+
+#nameraster {
+    padding-top: 10px;
+    max-height: 70px;
+}
+
+.navbar-brand {
+    min-height: 60px;
+    padding: 0px 3px 5px 5px;
+}
+
+/* .navbar-name {
+    padding: 5px 3px 5px 5px;
+} */
+
+.navbar-default .navbar-nav li a {
+    color: #D5D5D5;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav li a.active {
+    color: #FFF;
+}
+
+.divider{
+    width:25px;
+    height:auto;
+    display:inline-block;
+}
+
+#home{
+    color: navy;
+    background: url(../images/gbanner2.jpg) no-repeat center center fixed;
+    display: table;
+    height: 45%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.landing-text h1{
+    font-size: 400%;
+    font-weight: 700;
+}
+
+.padding {
+    padding: 80px 0;
+}
+
+.padding img {
+    width: 100%;
+}
+
+#fixed {
+    color: white;
+    background: url(../images/gbanner1.jpg) no-repeat center center fixed;
+    display: table;
+    height: 30%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 60px;
+}
+
+
+footer{
+    width: 100%;
+    background-color: #23415C;
+    padding: 2% 2% 2% 2%;
+    color: #FFF;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: #FFF;
+}
+
+.fa:hover {
+    color: #D5D5D5;
+    text-decoration: none;
+}
+
+.icon {
+    max-width: 200px;
+}
+
+@media (max-width: 768px) {
+    .landing-text h1{
+        font-size: 300%;
+    }
+
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .icon {
+        padding-top: 5%;
+        max-width: 100px;
+    }
+
+    img#logoraster {
+        position: absolute;
+        left: 50%;
+        margin-left: -60px;
+        padding-bottom: 10px;
+    }
+
+    img#nameraster {
+        display: none;
+    }
+
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+.bg-light{
+    background-color: #EEEEEE!important;
+}
+
+.figure-caption {
+    font-size: 120%;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 800;
+    padding: 8px 0px 8px 0px;
+}
+
+.img-thumbnail{
+    padding: .5rem;
+    border: 2px solid #868E96;
+    border-radius: 0;
+    border-color: #DDDDDD;
+}
